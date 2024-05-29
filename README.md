@@ -44,9 +44,9 @@ The application follows the Clean Architecture principles, ensuring separation o
 
 ### Layers
 
-1. **Core**: Contains the domain entities and interfaces.
+1. **Domain**: Contains the domain entities and interfaces.
 2. **Application**: Contains the business logic, commands, queries, and handlers using MediatR.
-3. **Infrastructure**: Contains the implementation of the infrastructure services, such as the database context using EF Core.
+3. **Infrastructure**: Contains the implementation of the infrastructure services, such as the database context using EF Domain.
 4. **API**: Contains the controllers and is the entry point for the API.
 
 ## Getting Started
@@ -54,7 +54,7 @@ The application follows the Clean Architecture principles, ensuring separation o
 ### Prerequisites
 
 - .NET 8 SDK.
-- SQLiteStudio for viewing db.
+- SQLiteStudio for viewing Database.
 
 ### Installation
 
